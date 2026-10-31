@@ -6,7 +6,7 @@ This project uses a retail orders dataset from Kaggle and follows an end-to-end 
 
 1. **Extract — Kaggle API:** Download the retail orders dataset from Kaggle.
 2. **Transform — Python and Pandas:** Clean and process the downloaded data in Jupyter Notebook.
-3. **Load — SQL database:** Transfer the processed data from Python into the `orders` table.
+3. **Load — SQL database:** Transfer the processed data from Python into the SQL.
 4. **Analyze — SQL:** Query the loaded data to answer product, regional, monthly sales, and sub-category profit questions.
 5. **Visualize — Tableau:** Connect Tableau to the database and explore the analysis in the dashboard added to this project.
 
