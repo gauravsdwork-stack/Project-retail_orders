@@ -2,6 +2,15 @@
 
 This project uses a retail orders dataset from Kaggle and follows an end-to-end ETL and analytics workflow. Python downloads and processes the data, SQL stores and analyzes it, and a Tableau dashboard (added as an extension to the original workflow) makes the results interactive.
 
+## Project structure
+
+retail-orders-etl-project/
+├── README.md
+├── Project retail_orders.ipynb
+├── sql file.sql
+├── Retail Sales Dashboard.twb
+├── Retail Sales Dashboard.png
+
 ## Workflow
 
 1. **Extract — Kaggle API:** Download the retail orders dataset from Kaggle.
@@ -21,8 +30,6 @@ The profit comparison is the **absolute change** (`profit in 2023 - profit in 20
 
 ## Project files
 
-- **`retail-orders.zip`** — downloaded Kaggle dataset archive.
-- **`orders.csv`** — extracted source data.
 - **`Project retail_orders.ipynb`** — Jupyter Notebook for Python/Pandas data preparation and database loading.
 - **`sql file.sql`** — SQL queries for the analysis.
 - **`Retail Sales Dashboard.twb`** — Tableau workbook with four analysis sheets arranged on an interactive dashboard.
